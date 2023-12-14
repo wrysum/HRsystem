@@ -1,7 +1,7 @@
 //package com.example.HRsystem;
 //
 //import com.example.HRsystem.entity.User;
-//import com.example.HRsystem.enums.Role;
+//import com.example.HRsystem.entity.Role;
 //import com.example.HRsystem.repository.UserRepository;
 //import com.example.HRsystem.service.UserService;
 //import org.junit.jupiter.api.Test;

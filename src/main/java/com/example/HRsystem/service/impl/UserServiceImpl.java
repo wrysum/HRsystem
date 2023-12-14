@@ -1,6 +1,6 @@
 package com.example.HRsystem.service.impl;
 
-import com.example.HRsystem.enums.Role;
+import com.example.HRsystem.entity.Role;
 import com.example.HRsystem.entity.User;
 import com.example.HRsystem.repository.UserRepository;
 import com.example.HRsystem.service.UserService;

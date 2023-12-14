@@ -1,6 +1,6 @@
 package com.example.HRsystem.service;
 
-import com.example.HRsystem.enums.Role;
+import com.example.HRsystem.entity.Role;
 import com.example.HRsystem.entity.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

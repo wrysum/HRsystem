@@ -1,6 +1,5 @@
 package com.example.HRsystem.entity;
 
-import com.example.HRsystem.enums.Role;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Getter;

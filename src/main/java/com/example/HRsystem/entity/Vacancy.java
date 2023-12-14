@@ -1,11 +1,9 @@
 package com.example.HRsystem.entity;
 
-import com.example.HRsystem.enums.Category;
 import jakarta.persistence.*;
 import lombok.Data;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @Data
 @Entity
@@ -13,8 +11,8 @@ import java.util.Date;
 public class Vacancy {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
-    private byte[] image;
+    private Long id;
+    private Byte[] image;
     private String nameCompany;
     private String title;
     private String description;
@@ -22,8 +20,8 @@ public class Vacancy {
     private Category category;
     private String email;
     LocalDateTime dateTime;
-    private String[] phoneNumber = new String[4] ;
-    private int salary;
+    private String[] phoneNumber = new String[4];
+    private Integer salary;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id")
